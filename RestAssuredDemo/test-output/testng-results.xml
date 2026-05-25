@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-25T16:24:05 IST" name="Default suite" finished-at="2026-05-25T16:24:09 IST" duration-ms="3796">
+    <groups>
+    </groups>
+    <test started-at="2026-05-25T16:24:05 IST" name="Default test" finished-at="2026-05-25T16:24:09 IST" duration-ms="3796">
+      <class name="tests.GetTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:05 IST" name="setUp" finished-at="2026-05-25T16:24:05 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllPosts_shouldReturn200AndNonEmptyList()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:05 IST" name="getAllPosts_shouldReturn200AndNonEmptyList" finished-at="2026-05-25T16:24:07 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPosts_shouldReturn200AndNonEmptyList -->
+        <test-method signature="getAllUsers_shouldReturn10Users()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:07 IST" name="getAllUsers_shouldReturn10Users" finished-at="2026-05-25T16:24:07 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers_shouldReturn10Users -->
+        <test-method signature="getPostById_invalidId_shouldReturn404()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:07 IST" name="getPostById_invalidId_shouldReturn404" finished-at="2026-05-25T16:24:08 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostById_invalidId_shouldReturn404 -->
+        <test-method signature="getPostById_shouldReturnCorrectPost()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:08 IST" name="getPostById_shouldReturnCorrectPost" finished-at="2026-05-25T16:24:08 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostById_shouldReturnCorrectPost -->
+        <test-method signature="getPostsByUser_shouldReturnFilteredPosts()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:08 IST" name="getPostsByUser_shouldReturnFilteredPosts" finished-at="2026-05-25T16:24:08 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPostsByUser_shouldReturnFilteredPosts -->
+        <test-method signature="getUserById_shouldHaveValidEmailFormat()[pri:0, instance:tests.GetTests@7c7b252e]" started-at="2026-05-25T16:24:08 IST" name="getUserById_shouldHaveValidEmailFormat" finished-at="2026-05-25T16:24:09 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById_shouldHaveValidEmailFormat -->
+      </class> <!-- tests.GetTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
